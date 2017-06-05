@@ -143,6 +143,7 @@ abstract class AbstractCrudController extends FOSRestController {
     /**
      * Get collection of entities.
      *
+     * @QueryParam(name="start", default="1", nullable=true)
      * @QueryParam(name="start", default="0", nullable=true)
      * @QueryParam(name="length", default="10", nullable=true)
      * @QueryParam(name="datatables", default=1, nullable=true)
