@@ -23,7 +23,7 @@
  *
  */
 
-namespace BryanHenry\MetrifyBundle\Components\Entity;
+namespace BryanHenry\MetrifyBundle\Components\Form;
 
 interface FormEntityInterface {
 
