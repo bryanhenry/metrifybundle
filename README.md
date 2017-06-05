@@ -10,6 +10,7 @@ This package aims to reduce some of the boiler plate when doing simple crud with
 Create your entity, and implement the FormEntityInterface
 
 ```php
+namespace MyNameSpace;
 
 class MyEntity extends FormEntityInterface {
 
