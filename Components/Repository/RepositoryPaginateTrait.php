@@ -68,7 +68,7 @@ trait RepositoryPaginateTrait {
         try {
 
             // Count number of rows.
-            return $this->createQueryBuilder('paginate')->select('count(table_alias.id)')->getQuery()->getSingleScalarResult();
+            return $this->createQueryBuilder('paginate')->select('count(paginate.id)')->getQuery()->getSingleScalarResult();
 
         } catch(\Doctrine\ORM\NoResultException $Exception) {
 
