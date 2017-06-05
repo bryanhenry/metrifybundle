@@ -1,0 +1,32 @@
+{
+    "name" : "bryanhenry/metrify-bundle",
+    "description" : "Convenience tools for quick symfony crud using Symfony, FOSRestBundle and Doctrine2",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Bryan Henry",
+        "email" : "bryan@misterflow.com"
+    }],
+    "keywords" : [
+        "simple crud rest symfony"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+	    "php": ">=7.1",
+	    "doctrine/doctrine-bundle": "^1.6",
+	    "doctrine/orm": "^2.5",
+	    "symfony/symfony": "~3.2",
+	    "friendsofsymfony/rest-bundle": "~2.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "BryanHenry\\MetrifyBundle" : ""
+        }
+    },
+    "extra" : {
+    "branch-alias" : {
+            "dev-1.0" : "1.0.x-dev"
+        }
+    }
+}
