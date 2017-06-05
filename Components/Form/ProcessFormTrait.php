@@ -25,7 +25,7 @@
 
 namespace BryanHenry\MetrifyBundle\Components\Form;
 
-use BryanHenry\MetrifyBundle\Components\Entity\EntityInterface;
+use BryanHenry\MetrifyBundle\Components\Form\FormEntityInterface;
 use FOS\RestBundle\View\View;
 use Symfony\Component\Form\FormTypeInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -42,7 +42,7 @@ trait ProcessFormTrait {
      * @return View
      *
      */
-    public function processForm(Request $Request, string $form, EntityInterface $Entity) : View
+    public function processForm(Request $Request, string $form, FormEntityInterface $Entity) : View
     {
 
         /**

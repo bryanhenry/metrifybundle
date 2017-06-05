@@ -25,7 +25,7 @@
 
 namespace BryanHenry\MetrifyBundle\Components\Controller;
 
-use BryanHenry\MetrifyBundle\Components\Entity\FormEntityInterface;
+use BryanHenry\MetrifyBundle\Components\Form\FormEntityInterface;
 use BryanHenry\MetrifyBundle\Components\Form\Exceptions\FormEntityInterfaceNotImplementedException;
 use BryanHenry\MetrifyBundle\Components\Form\ProcessFormTrait;
 use BryanHenry\MetrifyBundle\Components\Model\DataTables;
