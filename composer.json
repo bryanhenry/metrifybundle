@@ -21,7 +21,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "BryanHenry\\MetrifyBundle" : ""
+            "BryanHenry\\MetrifyBundle\\" : ""
         }
     },
     "extra" : {
