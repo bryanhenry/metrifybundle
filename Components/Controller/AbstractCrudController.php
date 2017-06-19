@@ -125,7 +125,7 @@ abstract class AbstractCrudController extends FOSRestController {
     {
 
         // Look for entity.
-        $Entity = $this->getRepository()->findOne($id);
+        $Entity = $this->getRepository()->find($id);
 
         if($Entity !== null) {
 
